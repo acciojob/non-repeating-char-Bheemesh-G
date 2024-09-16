@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	const arr = str.split("");
-	for(let i=0;arr.length;i++)
+	for(let i=0;i<arr.length;i++)
 		{
 			let count =0;
 			for(let j=0;j<arr.length;j++)
@@ -9,6 +9,7 @@ function firstNonRepeatedChar(str) {
 					if(arr[i]===arr[j])
 						
 					{
+						
 						count++;
 					}
 				}
