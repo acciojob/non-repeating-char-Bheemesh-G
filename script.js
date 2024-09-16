@@ -1,6 +1,6 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-	const arr = Array.form(str);
+	const arr = str.split("");
 	for(let i=0;arr.length;i++)
 		{
 			let count =0;
